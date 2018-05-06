@@ -3,7 +3,7 @@
     "version": "0.1",
     "slug": "influxdb",
     "description": "An timeseries database server",
-    "url": "",
+    "url": "https://github.com/thomaspurchas/hassio-addons/tree/master/influxdb",
     "startup": "system",
     "boot": "auto",
     "ports": {
