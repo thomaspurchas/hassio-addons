@@ -1,0 +1,20 @@
+{
+    "name": "InfluxDB",
+    "version": "0.1",
+    "slug": "influxdb",
+    "description": "An timeseries database server",
+    "url": "",
+    "startup": "system",
+    "boot": "auto",
+    "ports": {
+      "8086/tcp": 8086
+    },
+    "options": {
+      "databases": ["homeassistant"]
+    },
+    "schema": {
+      "databases": ["str"]
+    },
+    "image": "thomaspurchas/hassio-addon-influxdb-{arch}",
+    "timeout": 20
+  }
